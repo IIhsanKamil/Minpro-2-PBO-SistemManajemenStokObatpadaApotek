@@ -8,7 +8,6 @@ public class ObatBebas extends Obat {
         this.efekSamping = efekSamping;
     }
 
-    // POLYMORPHISM: Method Overriding
     @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();

@@ -8,7 +8,6 @@ public class ObatResep extends Obat {
         this.namaDokter = namaDokter;
     }
 
-    // POLYMORPHISM: Method Overriding
     @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();

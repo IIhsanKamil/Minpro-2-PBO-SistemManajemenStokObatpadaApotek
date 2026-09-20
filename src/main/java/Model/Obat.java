@@ -30,15 +30,7 @@ public class Obat {
     public KategoriObat getKategori() {
         return kategori;
     }
-//    public void setStok(int stok) {
-//        if (stok < 0) {
-//            System.out.println("Stok tidak boleh negatif!");
-//            this.stok = 0;
-//        }
-//        else {
-//            this.stok = stok; // Pastikan baris ini ada
-//        }
-//    }
+
     public double getHarga() {
         return harga;
     }
@@ -63,17 +55,6 @@ public class Obat {
         this.harga = harga;
     }
     
-//    public void setHarga(double harga) {
-//        if (harga < 0) {
-//            System.out.println("Harga tidak boleh negatif!");
-//            this.harga = 0;
-//        }
-//        else {
-//            this.harga = harga; // Pastikan baris ini ada
-//        }
-//    }
-    
-    // Method yang di-OVERRIDE oleh subclass (Polymorphism)
     public void tampilkanInfo() {
         System.out.printf("| %-8s | %-18s | %-15s | %-6d | Rp %-10.2f |", 
                 idObat, namaObat, kategori.getNamaKategori(), stok, harga);
