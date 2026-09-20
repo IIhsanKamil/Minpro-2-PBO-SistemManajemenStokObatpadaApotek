@@ -1,4 +1,4 @@
-# Minpro 2 PBO - Manajemen Stok Obat pada Apotek
+# Mini Project 2 PBO - Manajemen Stok Obat pada Apotek
  
 Program **Sistem Manajemen Stok Obat pada Apotek** berbasis Java (CLI/console) yang dibuat untuk **Mini Project 2 – Pemrograman Berorientasi Objek (PBO)**. Program ini merupakan lanjutan dari Mini Project 1.
 
