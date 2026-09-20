@@ -1,28 +1,38 @@
-package miniproject1;
+package Controller;
+
 import java.util.ArrayList;
+import Model.Obat;
 
 public class ManajemenStok {
     private ArrayList<Obat> daftarObat = new ArrayList<>();
 
-    // CREATE
+    // Method Overloading (Versi 1: Menerima Objek Obat secara langsung)
     public void tambahObat(Obat obat) {
         daftarObat.add(obat);
         System.out.println("Data obat berhasil ditambahkan!");
     }
 
+    // Method Overloading (Versi 2: Menambahkan daftar obat baru secara sekaligus)
+    public void tambahObat(ArrayList<Obat> listBaru) {
+        daftarObat.addAll(listBaru);
+        System.out.println("Beberapa data obat berhasil ditambahkan!");
+    }
+    
     // READ
     public void tampilkanSemuaObat() {
         if (daftarObat.isEmpty()) {
             System.out.println("Stok obat masih kosong.");
             return;
         }
-        System.out.println("\n-------------------------------------------------------------------------");
-        System.out.printf("| %-8s | %-20s | %-15s | %-8s | %-13s |\n", "ID", "Nama Obat", "Kategori", "Stok", "Harga");
-        System.out.println("-------------------------------------------------------------------------");
+        
+        System.out.println("\n--------------------------------------------------------------------------------------------------");
+        System.out.printf("| %-8s | %-18s | %-15s | %-6s | %-13s | %-22s |\n", "ID", "Nama Obat", "Kategori", "Stok", "Harga", "Keterangan Khusus");
+        System.out.println("--------------------------------------------------------------------------------------------------");
+
         for (Obat o : daftarObat) {
             o.tampilkanInfo();
         }
-        System.out.println("-------------------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------------------------------------");
     }
 
     // UPDATE
@@ -56,4 +66,9 @@ public class ManajemenStok {
         }
         return null;
     }
+    // Method agar tidak ada pesan konfirmasi saat program baru berjalan
+    public void tambahObatAwal(Obat obat) {
+    daftarObat.add(obat);
+    }
+    
 }

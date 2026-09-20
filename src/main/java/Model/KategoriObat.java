@@ -1,9 +1,4 @@
-package miniproject1;
-
-/**
- *
- * @author Asus
- */
+package Model;
 public class KategoriObat {
     private String namaKategori;
     private String deskripsi;
@@ -17,14 +12,13 @@ public class KategoriObat {
         return namaKategori;
     }
 
-    public void setNamaKategori(String namaKategori) {
-        this.namaKategori = namaKategori;
-    }
-
     public String getDeskripsi() {
         return deskripsi;
     }
 
+    public void setNamaKategori(String namaKategori) {
+        this.namaKategori = namaKategori;
+    }
     public void setDeskripsi(String deskripsi) {
         this.deskripsi = deskripsi;
     }

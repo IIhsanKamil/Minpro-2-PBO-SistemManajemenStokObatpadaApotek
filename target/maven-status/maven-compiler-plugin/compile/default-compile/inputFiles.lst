@@ -1,4 +1,6 @@
-C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\miniproject1\KategoriObat.java
-C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\miniproject1\Main.java
-C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\miniproject1\ManajemenStok.java
-C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\miniproject1\Obat.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\Controller\ManajemenStok.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\Model\KategoriObat.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\Model\Obat.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\Model\ObatBebas.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\Model\ObatResep.java
+C:\Users\Asus\Documents\NetBeansProjects\miniproject1\src\main\java\View\MainView.java
